@@ -1,0 +1,105 @@
+.rekommend-widget-outer-div-visible {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    vertical-align: baseline !important;
+    position: fixed !important;
+    bottom: 15px !important;
+    z-index: 2147483647 !important;
+}
+
+.rekommend-hidden {
+    display: none !important;
+}
+
+.rekommend-visible {
+    display: inline !important;
+}
+
+.rekommend-widget-iframe {
+    height: 425px !important;
+    width: 400px !important;
+    max-width: 400px !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border:2px solid black !important;
+    vertical-align: baseline !important;
+}
+
+
+a.modalCloseImg {
+    background: transparent url("images/xwhitered.png") no-repeat scroll 0% 0% !important;
+    background-size: 15px 15px !important;
+    width: 15px !important;
+    height: 15px !important;
+    z-index: 3200 !important;
+    position: absolute !important;
+    top: -4px !important;
+    cursor: pointer !important;
+    left: -4px !important;
+    margin: 0 !important;
+    border: 0 !important;
+    vertical-align: baseline !important;
+}
+
+
+
+@media (max-width: 600px) {
+
+#rekommend-widget-outer-div1 {
+    display: none !important;
+}
+#rekommend-question-button1 {
+    display: none !important;
+}
+
+}
+
+
+.rekommend-question-button {
+    width: 250px !important;
+    position: fixed !important;
+    bottom: 15px !important;
+    background-color: black !important;
+    color: white !important;
+    border-bottom: 5px solid rgba(240, 252, 134, 1) !important;
+    font-family: sans-serif !important;
+    line-height: 1.3 !important;
+    display:block !important;
+    font-size: 16px !important;
+    z-index: 2147483647 !important;
+
+}
+
+#rekommend-question-button1 {
+  -webkit-animation-duration: 10s !important;
+  -webkit-animation-delay: 2s !important;
+  -webkit-animation-iteration-count: infinite !important;
+}
+
+.rekommend-question-itself {
+    margin-left: 15px !important;  
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important; 
+}
+
+
+.rekommend-iframe-header {
+    height: 20px !important;
+    width: 400px !important;
+    box-sizing: border-box !important;
+    background: black repeat scroll 0% 0% !important;
+    color: #FFF !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    font-size: 12px !important;
+    font-family: sans-serif !important;
+    text-align: right !important;
+    margin: 0 !important;
+    border: 0 !important;
+    vertical-align: baseline !important;
+}
